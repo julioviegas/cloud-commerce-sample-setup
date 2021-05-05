@@ -5,8 +5,12 @@
             "path": "mystore-ssr",
             "ssr": {
               "enabled": true,
-              "path": "dist/mystore-ssr/mystore-ssr-server/main.js"
+              "path": "dist/mystore-ssr/server/main.js"
+            },
+            "csr": {
+                "webroot": "dist/mystore-ssr/browser/"
             }
         }
-    ]
+    ],
+    "nodeVersion": "12"
 }
